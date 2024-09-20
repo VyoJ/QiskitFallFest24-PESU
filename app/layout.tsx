@@ -28,13 +28,6 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        style={{
-          backgroundImage:
-            "url(/wallpapers/Qiskit_Fall-Fest_Wallpaper-02.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-        }}
       >
         {children}
       </body>
